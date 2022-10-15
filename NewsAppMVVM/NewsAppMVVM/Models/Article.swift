@@ -8,7 +8,7 @@
 import Foundation
 
 struct ArticleResponse: Decodable {
-    let aarticles: [Article]
+    let articles: [Article]
 }
 
 struct Article: Decodable {
