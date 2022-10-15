@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		15B4BBE26475A879D14A11D1 /* Pods_NewsAppMVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A7ECC4D8ABE47DF21832CCB /* Pods_NewsAppMVVM.framework */; };
+		5C35E6D928FA638000DC2C8D /* URLRequest+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C35E6D828FA638000DC2C8D /* URLRequest+Extensions.swift */; };
 		5CBAF05628FA5DBF00FACE23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBAF05528FA5DBF00FACE23 /* AppDelegate.swift */; };
 		5CBAF05828FA5DBF00FACE23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBAF05728FA5DBF00FACE23 /* SceneDelegate.swift */; };
 		5CBAF05D28FA5DBF00FACE23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CBAF05B28FA5DBF00FACE23 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C35E6D828FA638000DC2C8D /* URLRequest+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Extensions.swift"; sourceTree = "<group>"; };
 		5CBAF05228FA5DBF00FACE23 /* NewsAppMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsAppMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CBAF05528FA5DBF00FACE23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CBAF05728FA5DBF00FACE23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,8 +52,15 @@
 				D1FA1F4026ED1A94D7E53FF6 /* Pods-NewsAppMVVM.debug.xcconfig */,
 				D291ED9AFB352D188BABDAFB /* Pods-NewsAppMVVM.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		5C35E6D728FA636700DC2C8D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5C35E6D828FA638000DC2C8D /* URLRequest+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		5CBAF04928FA5DBF00FACE23 = {
@@ -75,6 +84,7 @@
 		5CBAF05428FA5DBF00FACE23 /* NewsAppMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				5C35E6D728FA636700DC2C8D /* Extensions */,
 				5CBAF06C28FA60BE00FACE23 /* Models */,
 				5CBAF06928FA5DF200FACE23 /* Controllers */,
 				5CBAF05528FA5DBF00FACE23 /* AppDelegate.swift */,
@@ -229,6 +239,7 @@
 				5CBAF06E28FA617C00FACE23 /* Article.swift in Sources */,
 				5CBAF05628FA5DBF00FACE23 /* AppDelegate.swift in Sources */,
 				5CBAF05828FA5DBF00FACE23 /* SceneDelegate.swift in Sources */,
+				5C35E6D928FA638000DC2C8D /* URLRequest+Extensions.swift in Sources */,
 				5CBAF06B28FA5E5900FACE23 /* NewsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
